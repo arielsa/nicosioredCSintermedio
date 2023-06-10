@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap_06_IComparable", "..\ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap_06_ICompare_OrdenamientoSecundario", "..\cap_06_ICompare_bis\cap_06_ICompare_OrdenamientoSecundario.csproj", "{71D0D343-22A6-456B-87E3-88A59B1866D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap_07_Interfaz_callBack", "..\cap_07_Interfaz_callBack\cap_07_Interfaz_callBack.csproj", "{75F4109C-7C28-4647-91BD-A6D29F623938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{71D0D343-22A6-456B-87E3-88A59B1866D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71D0D343-22A6-456B-87E3-88A59B1866D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71D0D343-22A6-456B-87E3-88A59B1866D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F4109C-7C28-4647-91BD-A6D29F623938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F4109C-7C28-4647-91BD-A6D29F623938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F4109C-7C28-4647-91BD-A6D29F623938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F4109C-7C28-4647-91BD-A6D29F623938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

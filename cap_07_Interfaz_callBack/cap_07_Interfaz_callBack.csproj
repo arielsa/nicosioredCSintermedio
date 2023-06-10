@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0C3E35B2-17DB-4A9D-8311-115988729348}</ProjectGuid>
+    <ProjectGuid>{75F4109C-7C28-4647-91BD-A6D29F623938}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cap_03_IEnumerable</RootNamespace>
-    <AssemblyName>cap_03_IEnumerable</AssemblyName>
+    <RootNamespace>cap_07_Interfaz_callBack</RootNamespace>
+    <AssemblyName>cap_07_Interfaz_callBack</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CContenedora.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
