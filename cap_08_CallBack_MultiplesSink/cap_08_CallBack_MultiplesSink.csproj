@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75F4109C-7C28-4647-91BD-A6D29F623938}</ProjectGuid>
+    <ProjectGuid>{DA1CDC6D-645D-485F-95A6-2E35C66D9F0F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cap_07_Interfaz_callBack</RootNamespace>
-    <AssemblyName>cap_07_Interfaz_callBack</AssemblyName>
+    <RootNamespace>cap_08_CallBack_MultiplesSink</RootNamespace>
+    <AssemblyName>cap_08_CallBack_MultiplesSink</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CRefri.cs" />
-    <Compile Include="CRefriSink.cs" />
-    <Compile Include="IEventoRefri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
