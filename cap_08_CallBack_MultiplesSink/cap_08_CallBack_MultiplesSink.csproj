@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CRefri.cs" />
+    <Compile Include="CRefriSink.cs" />
+    <Compile Include="CTiendaSink.cs" />
+    <Compile Include="IEventoRefri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

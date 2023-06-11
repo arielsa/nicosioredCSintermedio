@@ -13,6 +13,11 @@ namespace cap_08_CallBack_MultiplesSink
         {
         }
 
+        public void EDescongelado(int pGrados)
+        {
+           // handler vacio
+        }
+
         //manejador del evento EReservasBajas
         public void EReservasBajas(int pKilos)
         {

@@ -59,6 +59,15 @@ namespace cap_08_CallBack_MultiplesSink
                     handler.EReservasBajas(kilosAlimentos);
                 }
             }
+            //esta es la condicion para el evento de descongelado
+            if (grados >= 0)
+            {
+                //recorrer la lista de sinks y notificar la situacion
+                foreach (IEventoRefri handler in listaSinks)
+                {
+                    handler.EDescongelado(grados);//ejecuta el evento de cada sink
+                }
+            }
         }
     }
 }
