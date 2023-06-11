@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap_07_Interfaz_callBack", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap_08_CallBack_MultiplesSink", "..\cap_08_CallBack_MultiplesSink\cap_08_CallBack_MultiplesSink.csproj", "{DA1CDC6D-645D-485F-95A6-2E35C66D9F0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap_09_delegadoSencillo", "..\cap_09_delegadoSencillo\cap_09_delegadoSencillo.csproj", "{4F9A5687-F459-407D-A198-F9725ECDEE40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DA1CDC6D-645D-485F-95A6-2E35C66D9F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA1CDC6D-645D-485F-95A6-2E35C66D9F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA1CDC6D-645D-485F-95A6-2E35C66D9F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9A5687-F459-407D-A198-F9725ECDEE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9A5687-F459-407D-A198-F9725ECDEE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9A5687-F459-407D-A198-F9725ECDEE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9A5687-F459-407D-A198-F9725ECDEE40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
