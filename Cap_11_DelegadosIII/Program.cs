@@ -29,6 +29,14 @@ namespace Cap_11_DelegadosIII
             {
                 miRefri.Trabajar(rnd.Next(1, 5));
             }
+            //eliminamos un handler
+            miRefri.EliminaMetodoReservas(kilos2);
+
+            //el refri trabaja
+            while (miRefri.Kilos > 0)
+            {
+                miRefri.Trabajar(rnd.Next(1, 5));
+            }
 
         }
         public static void InformeKilos(int pKilos)
