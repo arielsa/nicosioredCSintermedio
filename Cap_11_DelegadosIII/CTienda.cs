@@ -8,5 +8,10 @@ namespace Cap_11_DelegadosIII
 {
     internal class CTienda
     {
+        public static void MandaViveres(int pKilos)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Mandando {0} kilos de viveres", pKilos);
+        }
     }
 }
